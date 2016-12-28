@@ -1,0 +1,97 @@
+*{ 
+	box-sizing:border-box;
+
+}
+h1{
+	text-align: center;
+}
+
+body{
+	margin:0px;
+	padding:0px;
+	font-family: sans-serif;
+	width:100%;
+}
+
+.container{
+	margin:auto;
+	width:90%;
+
+}
+
+div{
+	background-color: #d3d3d3;
+	border:5px solid;
+	margin-right:5px;
+	margin-bottom:5px;
+}
+
+.foodTitle{
+	float:right;
+	color:white;
+	border-left: 5px solid;
+	border-bottom: 5px solid;
+	border-color: black;
+	width:40%;
+	margin-top: 0px;
+	margin-bottom:0px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	
+}
+
+div:nth-child(1)>.foodTitle{
+	background-color: #ff4d4d;
+}
+
+div:nth-child(2)>.foodTitle{
+	background-color: #66ffc2;
+	color:#000000;
+}
+
+div:nth-child(3)>.foodTitle{
+	background-color: #b3ff66;
+	color:#ff4d4d;
+}
+.description{
+	clear:right;
+	padding:10px;
+	width:100%;
+}
+
+@media(min-width: 992px){
+	.col-lg-1, .col-lg-2, .col-lg-3{
+		float:left;
+	}
+
+	.col-lg-3{
+		width:100%;
+	}
+
+	.col-lg-2{
+		width:49%;
+	}
+
+	.col-lg-1{
+		width:32%;
+	}
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+	.col-md-1, .col-md-2, .col-md-3{
+		float:left;
+	}
+
+	.col-md-3{
+		width:100%;
+	}
+
+	.col-md-2{
+		width:49%;
+	}
+
+	.col-md-1{
+		width:32%;
+	}
+}
